@@ -24,7 +24,7 @@ async def slash2(interaction: discord.Interaction):
   
 @tree.command(guild = discord.Object(id=id_do_servidor), name = 'criadora', description='Nome da criadora')
 async def slash3(interaction: discord.Interaction):
-      await interaction.response.send_message(f"Fui desenvolvido por @sxbrinamf https://socialtreesxbrinamf.netlify.app", ephemeral = False)
+      await interaction.response.send_message(f"Fui desenvolvido por @sxbrinamf https://sxbrinamf.netlify.app", ephemeral = False)
 
 @tree.command(guild = discord.Object(id=id_do_servidor), name = 'dadod6', description='Rodar um dado D6')
 async def slash4(interaction: discord.Interaction):
